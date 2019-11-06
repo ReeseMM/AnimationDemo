@@ -10,11 +10,21 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var viewToAnimate: UIView!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
 
 
+    @IBAction func animationFade(_ sender: UIButton) {
+    }
+    
+    @IBAction func animationSpin(_ sender: UIButton) {
+    }
+    
+    @IBAction func animationMove(_ sender: UIButton) {
+    }
+    
 }
 
