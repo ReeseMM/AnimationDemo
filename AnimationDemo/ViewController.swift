@@ -17,7 +17,11 @@ class ViewController: UIViewController {
     }
 
 
-    @IBAction func animationFade(_ sender: UIButton) {
+    @IBAction func animationFade(_ sender: UIButton)
+    {
+        let slab = UIView()
+        UIView.animate(withDuration: 1, animations: {slab.alpha = 0})
+        
     }
     
     @IBAction func animationSpin(_ sender: UIButton) {
