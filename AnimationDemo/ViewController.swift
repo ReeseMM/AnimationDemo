@@ -19,8 +19,8 @@ class ViewController: UIViewController {
 
     @IBAction func animationFade(_ sender: UIButton)
     {
-        let slab = UIView()
-        UIView.animate(withDuration: 1, animations: {slab.alpha = 0})
+        let slab = viewToAnimate
+        UIView.animate(withDuration: 1, animations: {slab!.alpha = 0})
         
     }
     
