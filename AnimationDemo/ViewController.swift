@@ -9,7 +9,7 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+var djn = 0
     @IBOutlet weak var viewToAnimate: UIView!
     override func viewDidLoad() {
         super.viewDidLoad()
